@@ -57,7 +57,20 @@ img {
   background-color: #ffffff;
 }
 
-.logo {
+.header-container {
+  display: flex;
+  margin-right: auto;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: auto;
+}
+
+.header-logo {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -66,13 +79,30 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  margin-right: 76px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 
 .logo-span {
   color: #2e2f42;
 }
 
-.top-line-nav {
+.nav-list {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -80,24 +110,35 @@ img {
   color: #2e2f42;
 }
 
-.top-line-nav:hover,
-.top-line-nav:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
 .contacts {
-  font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
-.contacts-info {
+.contacts-list {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-style: normal;
   color: #434455;
+  display: flex;
 }
 
-.contacts-info:hover,
-.contacts-info:focus {
+.contacts-item {
+  margin-right: 40px;
+}
+
+.contacts-item:last-child {
+  margin-right: 0;
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
   color: #404bbf;
 }
 
@@ -168,6 +209,19 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .team-card-bg {
