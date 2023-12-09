@@ -42,6 +42,7 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 /* Styles */
@@ -251,11 +252,42 @@ img {
 }
 
 .team-container {
-  padding: 232px 0 120px;
+  padding: 120px 0;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 24px / 3) * 4);
 }
 
 .team-card {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card:last-child {
+  margin-right: 0;
+}
+
+.team-names {
+  padding-top: 32px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.portfolio-container {
+  padding: 120px 0;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: calc((100% - 24px / 2) * 3);
+}
+
+.portfolio-item {
 }
 
 .logo-span-footer {
