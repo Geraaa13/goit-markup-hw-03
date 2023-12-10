@@ -92,15 +92,11 @@ img {
 
 .nav-list {
   display: flex;
-  padding: 24px 0;
+  gap: 40px;
 }
 
 .nav-item {
-  margin-right: 40px;
-}
-
-.nav-item:last-child {
-  margin-right: 0;
+  padding: 24px 0;
 }
 
 .nav-link {
@@ -128,14 +124,7 @@ img {
   font-style: normal;
   color: #434455;
   display: flex;
-}
-
-.contacts-item {
-  margin-right: 40px;
-}
-
-.contacts-item:last-child {
-  margin-right: 0;
+  gap: 40px;
 }
 
 .contacts-item:hover,
