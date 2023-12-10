@@ -95,8 +95,8 @@ img {
 }
 
 .nav-item {
-  margin-right: 40px;
   padding: 24px 0;
+  margin-right: 40px;
 }
 
 .nav-item:last-child {
@@ -146,9 +146,6 @@ img {
 .hero-section {
   background-color: #2e2f42;
   text-align: center;
-}
-
-.hero-container {
   padding: 188px 0;
 }
 
@@ -282,10 +279,10 @@ img {
 }
 
 .team-card {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
 }
 
 .team-card:last-child {
